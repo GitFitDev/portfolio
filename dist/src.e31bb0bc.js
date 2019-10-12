@@ -29769,7 +29769,9 @@ function (_Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return _react.default.createElement("div", null, _react.default.createElement("img", {
+      return _react.default.createElement("div", {
+        className: "background"
+      }, _react.default.createElement("img", {
         src: _D2FFDE0A3604229BE80D35483ACB24D.default,
         alt: "profile",
         className: "profile"
@@ -29998,7 +30000,9 @@ var Header = function Header(_ref) {
     margin: 10,
     marginBottom: 30
   };
-  return _react.default.createElement("div", null, _react.default.createElement("div", null, _react.default.createElement("h3", {
+  return _react.default.createElement("div", {
+    className: "background"
+  }, _react.default.createElement("div", null, _react.default.createElement("h3", {
     style: style
   }, _react.default.createElement(_reactRouterDom.Link, {
     to: "/"
