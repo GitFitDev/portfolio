@@ -47,3 +47,10 @@ h1, h2, h3, h4, h5 {
   from { opacity: 0 } 
   to { opacity: 100 }
 }
+.background {
+  background: linear-gradient(to right, rgb(41, 128, 185), rgb(109, 213, 250), rgb(255, 255, 255));
+}
+
+a {
+  color: black;
+}

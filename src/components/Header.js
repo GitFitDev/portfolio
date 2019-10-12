@@ -9,7 +9,7 @@ const Header = ({ children }) => {
   };
 
   return (
-    <div>
+    <div className='background'>
       <div>
         <h3 style={style}><Link to="/">Home</Link></h3>
         <h3 style={style}><Link to="/jokes">Jokes</Link></h3>
